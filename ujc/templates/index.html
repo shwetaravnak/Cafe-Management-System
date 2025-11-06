@@ -1,0 +1,317 @@
+{% extends "base.html" %}
+{% load humanize %}
+{% block content %}
+        <!-- Carousel Start -->
+        <div class="carousel">
+            <div class="container-fluid">
+                <div class="owl-carousel">
+                    <div class="carousel-item">
+                        <div class="carousel-img">
+                            <img src="/static/img/ujc.jpg" alt="Image">
+                        </div>
+                        <div class="carousel-text">
+                            <h1>Perfect <span>Cafe</span> Atmosphere</h1>
+                            <p>
+                                Chill Vibes, Warm Ambiance, and Fresh Flavors Await.
+                            </p>
+                            <div class="carousel-btn">
+                                <a class="btn custom-btn" href="">View Menu</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousel-img">
+                            <img src="/static/img/ujc22.jpg" alt="Image">
+                        </div>
+                        <div class="carousel-text">
+                            <h1>Best <span>Quality</span> Ingredients</h1>
+                            <p>
+                                We believe great food starts with the best ingredients. Fresh, premium, and handpicked — because you deserve nothing less.
+                            </p>
+                            <div class="carousel-btn">
+                                <a class="btn custom-btn" href="">View Menu</a>
+                                <a class="btn custom-btn" href="">Order Now!</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousel-img">
+                            <img src="/static/img/ujc3.jpg" alt="Image">
+                        </div>
+                        <div class="carousel-text">
+                            <h1>Fastest Order <span>Delivery</span></h1>
+                            <p>
+                                Craving Something Delicious? We’ve Got You Covered – Fast!
+                            </p>
+                            <div class="carousel-btn">
+                                <a class="btn custom-btn" href="">View Menu</a>
+                                <a class="btn custom-btn" href="">Book Table</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Carousel End -->
+
+        <!-- About Start -->
+        <div class="about">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="about-img">
+                            <img src="/static/img/ujcgate.jpg" alt="Image">
+                            <button type="button" class="btn-play" data-toggle="modal" data-src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2F1783619575191403%2Fvideos%2F377669699848744%2F&show_text=0&width=560" data-target="#videoModal">
+                                <span></span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="about-content">
+                            <div class="section-header">
+                                <p>About Us</p>
+                                <h2>Fresh Bites, Warm Vibes</h2>
+                            </div>
+                            <div class="about-text">
+                                <p>
+                                    At Urban Juice Café, we believe good food and great conversations go hand in hand. We're more than just a café — we're a cozy corner where flavors come alive and memories are made.
+                                </p>
+                                <p>
+                                    From handcrafted burgers to refreshing beverages, every item on our menu is made with care, passion, and a dash of café magic. Drop by, grab a bite, and feel right at home.
+                                </p>
+                                <a class="btn custom-btn" href="">Book A Table</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+        
+        
+        <!-- Video Modal Start-->
+        <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>        
+                        <!-- 16:9 aspect ratio -->
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay; encrypted-media" allowfullscreen>"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <!-- Video Modal End -->
+        
+        
+        <!-- Feature Start -->
+        <div class="feature">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <div class="section-header">
+                            <p>Why Choose Us</p>
+                            <h2>Our Key Features</h2>
+                        </div>
+                        <div class="feature-text">
+                            <div class="feature-img">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <img src="/static/img/feature-1.jpg" alt="Image">
+                                    </div>
+                                    <div class="col-6">
+                                        <img src="/static/img/feature-2.jpg" alt="Image">
+                                    </div>
+                                    <div class="col-6">
+                                        <img src="/static/img/feature-3.jpg" alt="Image">
+                                    </div>
+                                    <div class="col-6">
+                                        <img src="/static/img/feature-4.jpg" alt="Image">
+                                    </div>
+                                </div>
+                            </div>
+                            <p>
+                                We believe in nourishing your body with only the best plant-based ingredients. From farm-fresh veggies to wholesome grains, we use the finest vegetarian ingredients in every dish.
+                            </p>
+                            <a class="btn custom-btn" href="">Book A Table</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="feature-item">
+                                    <i class="flaticon-cooking"></i>
+                                    <h3>Best Cooking</h3>
+                                    <p>
+                                        Fresh, flavorful, and expertly cooked — that’s our promise to you.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="feature-item">
+                                    <i class="flaticon-vegetable"></i>
+                                    <h3>Natural ingredients</h3>
+                                    <p>
+                                        Only the freshest, all-natural ingredients in every dish.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="feature-item">
+                                    <i class="flaticon-medal"></i>
+                                    <h3>Best quality products</h3>
+                                    <p>
+                                        Only the finest products make it into our kitchen — because you deserve the best.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="feature-item">
+                                    <i class="flaticon-meat"></i>
+                                    <h3>Fresh vegetables</h3>
+                                    <p>
+                                        Farm-fresh vegetables, full of flavor and nutrition, in every bite.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="feature-item">
+                                    <i class="flaticon-courier"></i>
+                                    <h3>Fast delivery</h3>
+                                    <p>
+                                        Fast delivery, because we know you’re hungry for the best.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="feature-item">
+                                    <i class="flaticon-fruits-and-vegetables"></i>
+                                    <h3>Low fat</h3>
+                                    <p>
+                                        Healthy, light, and full of flavor — our low-fat dishes are made for you.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Feature End -->
+        
+        
+        <!-- Food Start -->
+        <div class="food">
+            <div class="container">
+                <div class="row align-items-center">
+                {% for cat in categories %}
+                    <div class="col-md-4">
+                        <div class="food-item">
+                            <i class="{{cat.icon}}"></i>
+                            <h2>{{cat.name}}</h2>
+                            <p>
+                                {{cat.description}}
+                            </p>
+                            <a href="{% url 'all_dishes' %}?q={{cat.id}}">View Menu</a>
+                        </div>
+                    
+                    </div>
+                {% endfor %}
+                </div>
+            </div>
+        </div>
+        <!-- Food End -->
+         
+        
+        <!-- Team Start -->
+        <div class="team">
+            <div class="container">
+                <div class="section-header text-center">
+                    <p>Our Team</p>
+                    <h2>Our Master Chef</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="/static/img/team-1.jpg" alt="Image">
+                                <div class="team-social">
+                                    <a href=""><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                            <div class="team-text">
+                                <h2>Adam Phillips</h2>
+                                <p>CEO, Co Founder</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="/static/img/team-2.jpg" alt="Image">
+                                <div class="team-social">
+                                    <a href=""><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                            <div class="team-text">
+                                <h2>Dylan Adams</h2>
+                                <p>Master Chef</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="/static/img/team-3.jpg" alt="Image">
+                                <div class="team-social">
+                                    <a href=""><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                            <div class="team-text">
+                                <h2>Jhon Doe</h2>
+                                <p>Master Chef</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="/static/img/team-4.jpg" alt="Image">
+                                <div class="team-social">
+                                    <a href=""><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                            <div class="team-text">
+                                <h2>Josh Dunn</h2>
+                                <p>Master Chef</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Team End -->
+        
+        
+        
+{% endblock %}
