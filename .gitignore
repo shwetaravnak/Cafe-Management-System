@@ -1,8 +1,35 @@
-venv/
+# 🧠 Python
 __pycache__/
-*.pyc
-*.sqlite3
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# 🧰 Virtual environment
+venv/
+env/
+ENV/
+*.env
+pyvenv.cfg
+
+# 🗄️ Database
 db.sqlite3
-.env
+
+# 🧑‍💻 Django specific
 /staticfiles/
 /media/
+/*.log
+*.pot
+*.pyc
+
+# ⚙️ VSCode and system files
+.vscode/
+.idea/
+*.DS_Store
+Thumbs.db
+
+# 📦 Migrations cache (optional – if you don’t want to commit migrations)
+# */migrations/
+# !*/migrations/__init__.py
